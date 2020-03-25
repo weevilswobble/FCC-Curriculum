@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class="container">
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <h1 id="title" class="center">freeCodeCamp Survey Form</h1>
+    <p id="description" class="center">Thank you for taking the time to help us improve the platform </p>
     <form id="surveyForm">    
         <div class="formGroup">
             <label>Name</label>
                 <br/>
-            <input type="text" placeholder="Enter your name" required>
+            <input id="name" type="text" placeholder="Enter your name" required>
         </div>
             <label>Email</label>
                 <br/>
-            <input type="email" placeholder="Enter your Email" required>
+            <input id="email" type="email" placeholder="Enter your Email" required>
         <div class="formGroup">
             <label>Age (optional)</label>
                 <br/>
-            <input type="number" min="10" max="99" placeholder="Age">
+            <input id="age" type="number" min="10" max="99" placeholder="Age">
         </div>
         <div class="formGroup">
             <label for="dropDown">Which option best describes your current role?</label>
