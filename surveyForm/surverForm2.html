@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parent.css">
+    <title>Overwatch Role Survey</title>
+</head>
+<section class="parent">
+    <h1 id="title">Overwatch Hardware Survey</h1>
+        <p id="description">Let us know how you play!</p>
+</div>
+<form id="surveyForm">
+    <div class="parent">
+        <label id="name-label">Name</label><br>
+            <input  type="text" placeholder="Enter your Name">
+      </div>
+    <div class="parent">
+        <label id="number-label">Age</label><br>
+            <input type="number" min="10" max="99" placeholder="Age" required>
+    </div>
+      <div class="parent">
+       <label id="email-label">Email</label><br>
+            <input  type="email" placeholder="Enter your Email" required>
+    </div>
+    <div class="parent">
+        <label id="dropDown">CPU</label><br>
+            <select>
+                <option value="" disabled default selected>Select CPU</option>
+                    <option value="">Intel</option>
+                        <option value="">AMD</option>
+                            <option value="">Other</option>
+            </select>
+    </div>
+    <div class="parent">
+        <label id="dropDown">GPU</label><br>
+            <select>
+                <option value="" disabled default selected>Select GPU</option>
+                    <option value="">NVIDIA</option>
+                        <option value="">AMD</option>
+                            <option value="">Other</option>
+            </select>
+    </div>
+    <div class="parent">
+        <label id="rec">Would you recommend the game to others?</label><br>
+            <select>
+                <option value="" disabled default selected required>Please choose one</option>
+                    <option value="">Yes</option>
+                        <option value="">No</option>
+                            <option value="">Decline to answer</option>
+            </select>
+    </div>
+    <div class="parent">
+        <p id="rate">Rate your service today</p>
+            <input type="radio" id="1" name="service" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" name="service" value="2">
+                    <label for="2">2</label>
+                        <input type="radio" id="3" name="service" value="3">
+                            <label for="3">3</label>
+                                <input type="radio" id="4"  name="service" value="4">
+                                    <label for="4">4</label>
+                                        <input type="radio" id="5" name="service" value="5">
+                                            <label for="5">5</label>
+</div>
+    <div class="parent">
+        <p id="comments">Any comments or suggestions?</p>
+            <textarea id="sugg" placeholder="Enter your comments or suggestions here..."></textarea>
+    </div><br><br>
+    <div class="submit">
+        <input id="submit" type="submit" value="Submit">
+    </div></section>
+</form>
+</html>

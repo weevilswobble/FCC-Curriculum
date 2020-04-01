@@ -1,0 +1,36 @@
+.parent {
+    text-align: center;
+    position: relative;
+    top: 5em;
+    line-height: 2.0em;
+    font-family: sans-serif;
+    padding-bottom: 1em;
+}
+html {
+    background-image: url(images/owback2.jpeg);
+    background-color: rgb( 0, 0, 0);
+    background-size: cover;
+}
+form {
+    background-image: url(images/owback.png);
+    background-color: rgb( 249, 158, 26);
+    background-size: cover;
+}
+#surveyForm {
+    background-color: rgb(33, 143, 254);
+    border-radius: 2em;
+}
+#buttone {
+    display: block;
+}
+#title {
+    color: rgb(222, 226, 230);
+}
+#description {
+    color: rgb(222, 226, 230);
+}
+#sugg {
+    width: 30em;
+    height: 10em;
+    padding-bottom: 2em;
+}
